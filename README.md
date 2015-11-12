@@ -1,9 +1,9 @@
-#Simple Ping in C
-  A stripped down version of the original Ping tool created by Mike Muuss back in 1983.  My ping program was written for a tutorial in network security at Marlboro College. The assignment was designed to be an introduction to socket programming and a chance to bone up on C.
+# Simple Ping in C
+A stripped down version of the original Ping tool created by Mike Muuss back in 1983.  My ping program was written for a tutorial in network security at Marlboro College. The assignment was designed to be an introduction to socket programming and a chance to bone up on C.
 
-##Running
+# Running
 Change the src and dst IP addresses in ping.c to your own / that of your router's.
-'''
+```
 $ cc ping.c
 $ sudo ./a.out
 Bytes received: 28
@@ -23,6 +23,5 @@ ICMP HEADER
 	Code: 0
 	Checksum: 0xF8E9
 	Identifier: 1337
-
-'''
+```
 The program returns the recieved ICMP packet.
